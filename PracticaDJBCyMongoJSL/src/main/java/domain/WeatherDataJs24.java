@@ -31,6 +31,13 @@ public class WeatherDataJs24 {
         this.recordId = recordId;
     }
 
+    public WeatherDataJs24(int recordId, String city, String date, int temperatureCelsius) {
+        this.recordId = recordId;
+        this.city = city;
+        this.date = date;
+        this.temperatureCelsius = temperatureCelsius;
+    }
+
     public WeatherDataJs24(String city, int temperatureCelsius) {
         this.city = city;
         this.temperatureCelsius = temperatureCelsius;
